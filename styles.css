@@ -1,0 +1,18 @@
+body {
+    
+    background-image: url("assets/main/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.content {
+    
+    margin: 10% 25% 10% 25%;
+    text-align: center;
+    
+}
+img.infocard {
+    
+    height: 370px;
+    
+}
