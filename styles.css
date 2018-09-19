@@ -1,18 +1,70 @@
 body {
+    display: block;
+    margin: 0px;
+}
+#index {
     
     background-image: url("assets/main/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100% 100%;
     
+}
+.news {
+    background-color: #eeeeee;
+}
+.header {
+
+    border-collapse: collapse;
+    background-color: #283f50;
+    height: 100px;
+
+}
+#header-logo {
+
+    height: 70px;
+    margin: 15px 15px 15px 15px;
+    color: #eeeeee;
+
+}
+.footer {
+
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 82px;
+    background-color: #283f50;
+    left: 0;
+    bottom: 0;
+
 }
 .content {
     
     margin: 10% 25% 10% 25%;
     text-align: center;
+    font-family: 'Calibri', sans-serif;
     
 }
 img.infocard {
     
     height: 370px;
     
+}
+.alert {
+    padding: 20px;
+    background-color: #D00000;
+    color: #eeeeee;
+    margin-bottom: 15px;
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+}
+.closebtn {
+    margin-left: 15px;
+    color: #eeeeee;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
 }
